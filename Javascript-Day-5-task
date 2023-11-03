@@ -1,0 +1,59 @@
+1.
+
+
+const Equalizer = new Movie("Equalizer","Marvel Production", "PG13");
+
+const Jailer = new Movie("Jailer", "Sun Production", "PG13");
+
+const Vikram = new Movie("Vikram", "Sun Production", "PG13");
+
+
+const Casino Royale = new Movie("Casino Royale", "Eon Production", "PG13");
+
+
+getAllMovies(movies){
+    return movies.filter((v) => v.noofRatings === true)
+}
+
+console.log(Vikaram.getAllMovies([Equalizer,Jailer,Vikram, Casino Royale]));
+
+
+
+
+3. 
+
+
+
+class  Person {
+    constructor(name, age, contactdetails) {
+        this.name = name;
+        this.age = age;
+        this.contactdetails = contactdetails;
+    }
+
+    displayInfo() {
+        console.log(`Person Info`);
+        console.log(`----------`);
+        console.log(`Name: ${this.name}`);
+        console.log(`Age: ${this.age}`); 
+        console.log(`ContactDetails: ${this.contactdetails}`);
+    }
+}
+
+let person1 = new Person('Chandru', '27', '9988776655');
+
+person1.displayInfo();
+
+
+
+
+
+
+
+
+4.
+
+Uber price
+
+  Uber Price: Uber Booking KM --> 7 / km
+  KM - 28  --> price 196
